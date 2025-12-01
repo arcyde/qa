@@ -1,0 +1,15 @@
+Scenario: Testing the new user registration interface
+Goal: Identify unexpected behaviors, usability issues and functional errors
+
+Exploratory session:
+1- Open the "Register" page (expected fields and max sizes: Name (50), E-mail (100), Username (20), Password)
+2- Attempt to insert numbers and special characters into the "Name" field
+3- Attempt to enter an invalid e-mail
+4- Enter more characters than allowed in the fields to check validation limits
+5- Leave the "Password" field empty
+6- Click the "Register" button multiple times to check the response
+
+Findings:
+1- The system allows more than 50 characters in the "Name" field
+2- Submitting the form without a password results in a 500 Internal Server Error
+3- Multiples clicks in the "Register" button leads to records with the same data
