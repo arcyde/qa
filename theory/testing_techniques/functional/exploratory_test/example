@@ -1,5 +1,5 @@
-Scenario: Testing the new user registration interface
-Goal: Identify unexpected behaviors, usability issues and functional errors
+Feature: Testing the new user registration interface
+Scenario: Identify unexpected behaviors, usability issues and functional errors
 
 Exploratory session:
 1- Open the "Register" page (expected fields and max sizes: Name (50), E-mail (100), Username (20), Password)
