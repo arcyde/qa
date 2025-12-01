@@ -1,4 +1,0 @@
-Exploratory testing is a type of test performed by using the system or functionality under development, without test cases or scripts. 
-It can be classified as black box or grey box, depending on how the tester's knowledge. 
-In exploratory testing, learning and execution happen simultaneously, requiring analytical skills. 
-Due to exploratory testing not following structured steps or a plan, tracking the actions taken and reproducing issues can be more hard to describe.
